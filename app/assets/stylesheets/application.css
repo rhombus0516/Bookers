@@ -19,16 +19,20 @@
     box-sizing: border-box;
 }
 
-.title{
-    font-size: 32px;
+body{
+    padding: 25px 35px;
+}
+
+h1{
+    font-size: 26px;
     display: block;
-    margin: 20 20px;
+    margin: 10p 20px;
 }
 
 p{
     font-size: 13px;
     line-height: 18px;
-    margin: 50px;
+    margin: 30px 30px;
 }
 
 a{
