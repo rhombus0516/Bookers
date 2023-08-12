@@ -41,8 +41,8 @@ p{
     font-size: 13px;
 }
 
-tr{
-    padding-right: 10px;
+td{
+    padding-left: 10px;
 }
 
 .show{
@@ -57,4 +57,9 @@ tr{
 
 .Destroy{
      font-size: 13px;
+}
+
+h2{
+    display: block;
+    margin: 20px 0;
 }
