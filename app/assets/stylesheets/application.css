@@ -20,21 +20,41 @@
 }
 
 body{
-    padding: 25px 35px;
+    margin: 30px;
 }
 
 h1{
     font-size: 26px;
     display: block;
-    margin: 10p 20px;
+    margin: 5 20px;
+    color: #333
 }
 
 p{
     font-size: 13px;
-    line-height: 18px;
-    margin: 30px 30px;
+    line-height: 20px;
+    margin: 23px 37px;
 }
 
-a{
-    padding-left: 30px;
+.start{
+    padding-left: 40px;
+    font-size: 13px;
+}
+
+tr{
+    padding-right: 10px;
+}
+
+.show{
+    padding: 10px;
+    font-size: 13px;
+}
+
+.Edit{
+    padding-right: 10px;
+     font-size: 13px;
+}
+
+.Destroy{
+     font-size: 13px;
 }
