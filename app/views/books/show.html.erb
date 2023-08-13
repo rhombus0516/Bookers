@@ -2,3 +2,5 @@
 <p><%= @books.title %></p>
 <h1>body</h1>
 <p><%= @books.body %></p>
+
+<%= link_to "edit", edit_book_path(@books.id) %>
