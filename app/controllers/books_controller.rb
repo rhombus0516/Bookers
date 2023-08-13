@@ -23,11 +23,17 @@ class BooksController < ApplicationController
   end
   
   def update
-    book = Book.find(params[:id])
-    book.update(book_params)
+    @books = Book.find(params[:id])
+    @book.update(book_params)
     redirect_to book_path(@books.id)
   end
   
+  def destroy
+    @books = Book.find(params[:id])
+    Book.destroy
+    redirect_to '/books'
+  end  
+
   private
   def book_params
    params.require(:book).permit(:title, :body)
