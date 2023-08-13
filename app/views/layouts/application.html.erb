@@ -11,7 +11,11 @@
   </head>
 
   <body>
-      
+    <main>
+        <% flash.each do |massage_type,massage| %>
+          <div class="flash-massage <%= massage_type %>"><%= massage %></div>
+          <% end %>
     <%= yield %>
+    </main>
   </body>
 </html>
